@@ -15,11 +15,16 @@
       name="ApiDemos-1"
       path="ApiDemos"
       revision="master"/>
+  
 
   <project
-      name="android-architecture"
-      path="architecture"
-      revision="refs/heads/todo-mvp"/>
+      name="myrepo"
+      path=".myrepo"
+      revision="develop">
+	<linkfile src="README.md" dest="read.md" />
+	<linkfile src="default.xml" dest="read.xml" />
+</project>
+
 
 </manifest>
 
